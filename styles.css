@@ -1,0 +1,124 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Hình chính */
+.banner {
+    background: url('main1.jpg') no-repeat center center/cover;
+    padding: 8rem 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* Khẩu hiệu */
+.slogan {
+    padding: 2rem 0;
+    background-color: #CCD0CF   ;
+}
+
+.slogan .row {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slogan .block {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.slogan h2 {
+    font-size: 1.75rem;
+    color: #e74c3c;
+    margin-bottom: 0.5rem;
+}
+
+.slogan p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Mục câu lạc bộ */
+a {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.clubs {
+    padding: 2rem 0;
+    background-color: #f4f4f4;
+}
+
+.clubs .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.club-item {
+    flex: 1 1 30%;
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: #CCD0CF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.club-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: transform 0.6s ease;
+}
+
+.club-item img:hover {
+    transform: scale(1.2);
+}
+
+.club-item h2 {
+    font-size: 1.5rem;
+    color: #253745;
+    margin-bottom: 0.5rem;
+}
+
+.club-item p {
+    font-size: 1rem;
+    color: #4A5C6A;
+}
+
+/* Trang cuối */
+.footer {
+    text-align: center !important;
+    background-color: #9BA8AB;
+    color: #4A5C6A;
+    padding: 0.5rem 0;
+}
+
